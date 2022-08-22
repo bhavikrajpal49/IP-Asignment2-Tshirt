@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+ 
+<html lang="en">
+ 
+  <head>
+ 
+    <meta charset="UTF-8" />
+ 
+    <title>Customized T-shirt.com</title>
+ 
+  </head>
+  <style>
+    body{
+        background-color: rgb(223, 255, 44);
+    }
+    h1[target="__header"]{
+            color:darkblue;
+            text-shadow: 0 0 3px #FF0000;
+ 
+        }
+        #sleeve{
+            background-color:rgb(0, 255, 21);
+            color:white;
+            font-weight:bold;
+        }
+        .tagline{
+            background-color:rgb(0, 77, 128);
+            color:white;
+            font-weight:bold;
+ 
+        }
+        embed{
+            width:175px;
+            height: 175px;
+            /* float:right; */
+            margin-right:10px;
+            border-radius:50%;
+        }
+        .Submit input{
+            background-color:rgb(255, 0, 0);
+            color:white;
+        }
+        .Submit input:hover{
+          background-color:rgb(98, 0, 255);
+            color:azure;
+            transition : 0.5s;
+            cursor: pointer;
+        }
+     
+</style>
+  <body align="center">
+ 
+    <h1 style="color: rgb(11, 28, 255); ">Customized tshirt.com</h1>
+    <div class="tshirtimg">
+        <embed src="img1.jpg" alt="invalid">
+       
+    </div>
+ 
+    <form action="">
+ 
+      <label for="tagline"
+ 
+        ><strong >What tagline do you want on the T-shirt:</strong></label>
+ 
+      <br /><br />
+ 
+      <input
+ 
+        type="text"
+ 
+        id="tagline"
+ 
+        name="tagline"
+ 
+       
+ 
+      /><br />
+ 
+ 
+ 
+      <p><strong>T-shirt color:</strong></p>
+ 
+ 
+ 
+      <input type="radio" id="black" name="color" value="black" />
+ 
+      <label for="black">Black</label><br />
+ 
+      <input type="radio" id="red" name="color" value="red" />
+ 
+      <label for="red">Red</label><br />
+ 
+      <input type="radio" id="green" name="color" value="green" />
+ 
+      <label for="green">Green</label><br />
+ 
+      <input type="radio" id="blue" name="color" value="blue" />
+ 
+      <label for="blue">Blue</label><br /><br />
+ 
+ 
+ 
+      <label for="size"><strong>T-shirt size:</strong></label
+ 
+      ><br /><br />
+ 
+      <select id="sleeve" name="size" id="size">
+ 
+        <option value="S">S</option>
+ 
+        <option value="M">M</option>
+ 
+        <option value="L">L</option>
+ 
+        <option value="XL">XL</option></select
+ 
+      ><br /><br />
+ 
+ 
+ 
+      <label for="quantity"><strong>Quantity:</strong></label>
+ 
+      <input type="number" min="0" />
+ 
+      <br /><br />
+ 
+ 
+ 
+      <label  for="order-date"><strong>Deliver By:</strong></label>
+ 
+      <input class="tagline" type="date" id="order-date" name="order-date" /><br /><br />
+ 
+ 
+ 
+      <label for="name"><strong>Enter your name:</strong></label
+ 
+      ><br /><br />
+ 
+      <input type="text" id="name" name="name" /><br /><br />
+ 
+ 
+ 
+      <label for="number"><strong>Enter your mobile number:</strong></label
+ 
+      ><br /><br />
+ 
+      <input type="text" id="number" name="number" /><br /><br />
+ 
+ 
+ 
+      <label for="address"><strong>Enter your address:</strong></label
+ 
+      ><br /><br />
+ 
+      <textarea id="address" name="address" rows="5" cols="30"></textarea>
+ 
+ 
+ 
+      <p><strong>Choose payment option:</strong></p>
+ 
+      <input type="radio" id="card" name="pay" value="card" />
+ 
+      <label for="card">Card</label><br />
+ 
+      <input type="radio" id="cash" name="pay" value="cash" />
+ 
+      <label for="cash on delivery">Cash</label>
+ 
+      </br></br>
+ 
+      <p><strong>Price:&nbsp;</strong>Rs 400 per T-shirt</p>
+       <div class="Submit">
+ 
+         <input type="submit" value="Confirm" />
+         
+         <input type="reset" value="Reset" />
+        </div>
+ 
+    </form>
+ 
+  </body>
+ 
+</html>
